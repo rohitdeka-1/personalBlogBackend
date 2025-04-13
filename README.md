@@ -87,3 +87,18 @@ npm run dev
 - `DELETE /api/v1/comments/:id` - Delete a comment
 
 ## Project Structure
+
+### Key Files and Their Purposes
+
+- **app.ts**: Main application file that sets up Express, middleware, and routes
+- **controllers/**: Handle business logic and request processing
+- **models/**: Define database schemas and methods
+- **routes/**: Define API endpoints and route handlers
+- **types/**: TypeScript interfaces for type safety
+- **utils/**: Reusable utility functions and configurations
+
+### Configuration Files
+
+- **.env**: Environment variables for configuration
+- **tsconfig.json**: TypeScript compiler options
+- **package.json**: Project metadata and dependencies
